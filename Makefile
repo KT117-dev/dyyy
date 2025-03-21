@@ -24,7 +24,7 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = DYYY
 
 # 源文件列表
-DYYY_FILES = DYYY.xm DYYYSettingViewController.m CityManager.m
+DYYY_FILES = DYYY.xm DYYYSettings.xm DYYYSettingViewController.m DYYYBottomAlertView.m DYYYCustomInputView.m DYYYOptionsSelectionView.m DYYYIconOptionsDialogView.m DYYYAboutDialogView.m DYYYManager.m CityManager.m 
 
 # 编译参数
 DYYY_CFLAGS = -fobjc-arc -w
